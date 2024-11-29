@@ -40,9 +40,9 @@ LocustPerformanceTest/
    cd LocustPerformanceTest
    ```
 
-2. **Set Up the Environment**
+2. **Install Dependencies**
    - Ensure you have Python 3.8+ installed.
-   - Install dependencies:
+   - Use the `requirements.txt` file to install dependencies:
      ```bash
      pip install -r requirements.txt
      ```
