@@ -1,7 +1,7 @@
 
 # Locust Performance Testing Project
 
-![Locust](https://img.shields.io/badge/Locust-477D96?style=for-the-badge&logo=python&logoColor=white)
+![Locust](https://img.shields.io/badge/Locust-Performance_Testing-2D6DB5?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 A Locust-based project for performance testing RESTful APIs. This project simulates multiple users interacting with API endpoints to evaluate the system's behavior under load.
