@@ -36,7 +36,7 @@ LocustPerformanceTest/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/ChatGTHB/LocustPerformansTest.git)
+   git clone https://github.com/ChatGTHB/LocustPerformansTest.git
    cd LocustPerformanceTest
    ```
 
