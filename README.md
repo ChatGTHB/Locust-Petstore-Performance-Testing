@@ -1,10 +1,12 @@
-
 # Locust Performance Testing Project
 
 ![Locust](https://img.shields.io/badge/Locust-Performance_Testing-2D6DB5?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 A Locust-based project for performance testing RESTful APIs. This project simulates multiple users interacting with API endpoints to evaluate the system's behavior under load.
+
+**Target API**: [Swagger Petstore](https://petstore.swagger.io)  
+**Report**: [View Full Test Report](./reports/report_1735264922.9668682.html)
 
 ---
 
@@ -27,7 +29,12 @@ A Locust-based project for performance testing RESTful APIs. This project simula
 LocustPerformanceTest/
 ├── UserTest.py              # Locust task definitions
 ├── requirements.txt         # Python dependencies
-└── README.md                # Project documentation
+├── README.md                # Project documentation
+└── reports/                 # Test reports and CSV files
+    ├── report_1735264922.9668682.html
+    ├── failures_1735265107.5026798.csv
+    ├── exceptions_1735265110.4368029.csv
+    └── requests_1735265102.7598166.csv
 ```
 
 ---
@@ -120,6 +127,13 @@ LocustPerformanceTest/
   - Response time distribution
   - Failure rates and errors
 
+### 📂 Test Reports
+
+- [View Full Test Report (HTML)](./reports/report_1735264922.9668682.html)  
+- [Failures Report (CSV)](./reports/failures_1735265107.5026798.csv)  
+- [Exceptions Report (CSV)](./reports/exceptions_1735265110.4368029.csv)  
+- [Requests Statistics (CSV)](./reports/requests_1735265102.7598166.csv)  
+
 ---
 
 ## 📝 License
@@ -131,3 +145,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## ❓ Contact
 
 For any questions or issues, please open an issue in this repository.
+
