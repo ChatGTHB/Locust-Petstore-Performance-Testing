@@ -47,8 +47,8 @@ Locust-Petstore-Performance-Testing/
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/ChatGTHB/Locust-Petstore-Performance-Testing.git
-   cd Locust-Petstore-Performance-Testing
+   git clone https://github.com/ChatGTHB/locust-petstore-performance-testing.git
+   cd locust-petstore-performance-testing
    ```
 
 2. **Install Dependencies**  
