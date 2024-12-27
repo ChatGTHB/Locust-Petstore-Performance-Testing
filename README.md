@@ -30,7 +30,7 @@ A Locust-based project designed to perform load and stress testing on the [Swagg
 ## 💂️ Project Structure
 
 ```
-Locust-Petstore-Performance-Testing/
+locust-petstore-performance-testing/
 ├── UserTest.py              # Locust task definitions
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project documentation
