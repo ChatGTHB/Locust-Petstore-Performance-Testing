@@ -1,11 +1,10 @@
-# Locust Performance Testing Project
+# LocustPetstorePerformanceTest
 
-![Locust](https://img.shields.io/badge/Locust-Performance_Testing-2D6DB5?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
 
 A Locust-based project for performance testing RESTful APIs. This project simulates multiple users interacting with API endpoints to evaluate the system's behavior under load.
 
-**Target API**: [Swagger Petstore](https://petstore.swagger.io)  
+**Target API**: [Swagger Petstore](https://petstore.swagger.io)\
 **Report**: [View Full Test Report](./reports/report_1735264922.9668682.html)
 
 ---
@@ -26,7 +25,7 @@ A Locust-based project for performance testing RESTful APIs. This project simula
 ## 📂 Project Structure
 
 ```
-LocustPerformanceTest/
+LocustPetstorePerformanceTest/
 ├── UserTest.py              # Locust task definitions
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project documentation
@@ -42,12 +41,14 @@ LocustPerformanceTest/
 ## 🛠️ Installation
 
 1. **Clone the Repository**
+
    ```bash
-   git clone https://github.com/ChatGTHB/LocustPerformansTest.git
-   cd LocustPerformanceTest
+   git clone https://github.com/ChatGTHB/LocustPetstorePerformanceTest.git
+   cd LocustPetstorePerformanceTest
    ```
 
 2. **Install Dependencies**
+
    - Ensure you have Python 3.8+ installed.
    - Use the `requirements.txt` file to install dependencies:
      ```bash
@@ -55,6 +56,7 @@ LocustPerformanceTest/
      ```
 
 3. **Verify Locust Installation**
+
    ```bash
    locust --version
    ```
@@ -64,15 +66,19 @@ LocustPerformanceTest/
 ## ⚙️ Usage
 
 ### Running the Locust Test
+
 1. **Start Locust**
+
    ```bash
    locust -f UserTest.py
    ```
 
 2. **Open the Locust Web Interface**
+
    - Navigate to [http://localhost:8089](http://localhost:8089) in your browser.
 
 3. **Configure the Test**
+
    - Set the number of users and spawn rate.
    - Click **Start Swarming**.
 
@@ -81,42 +87,46 @@ LocustPerformanceTest/
 ## 🔍 Tasks
 
 ### 1. **Create User**
-   - Endpoint: `POST /v2/user`
-   - Payload:
-     ```json
-     {
-       "id": 249897,
-       "username": "denemekullanici",
-       "firstName": "deneme",
-       "lastName": "kullanici",
-       "email": "denemekullanici@gmail.com",
-       "password": "123456789",
-       "phone": "5362264319",
-       "userStatus": 0
-     }
-     ```
+
+- Endpoint: `POST /v2/user`
+- Payload:
+  ```json
+  {
+    "id": 249897,
+    "username": "denemekullanici",
+    "firstName": "deneme",
+    "lastName": "kullanici",
+    "email": "denemekullanici@gmail.com",
+    "password": "123456789",
+    "phone": "5962264319",
+    "userStatus": 0
+  }
+  ```
 
 ### 2. **Update User**
-   - Endpoint: `PUT /v2/user/<username>`
-   - Payload:
-     ```json
-     {
-       "id": 24985,
-       "username": "guncelkullanici",
-       "firstName": "guncel",
-       "lastName": "kullanici",
-       "email": "guncelkullanici@gmail.com",
-       "password": "123456",
-       "phone": "5452126585",
-       "userStatus": 0
-     }
-     ```
+
+- Endpoint: `PUT /v2/user/<username>`
+- Payload:
+  ```json
+  {
+    "id": 24985,
+    "username": "guncelkullanici",
+    "firstName": "guncel",
+    "lastName": "kullanici",
+    "email": "guncelkullanici@gmail.com",
+    "password": "123456",
+    "phone": "5952126585",
+    "userStatus": 0
+  }
+  ```
 
 ### 3. **Get User Info**
-   - Endpoint: `GET /v2/user/<username>`
+
+- Endpoint: `GET /v2/user/<username>`
 
 ### 4. **Delete User**
-   - Endpoint: `DELETE /v2/user/<username>`
+
+- Endpoint: `DELETE /v2/user/<username>`
 
 ---
 
@@ -129,10 +139,10 @@ LocustPerformanceTest/
 
 ### 📂 Test Reports
 
-- [View Full Test Report (HTML)](./reports/report_1735264922.9668682.html)  
-- [Failures Report (CSV)](./reports/failures_1735265107.5026798.csv)  
-- [Exceptions Report (CSV)](./reports/exceptions_1735265110.4368029.csv)  
-- [Requests Statistics (CSV)](./reports/requests_1735265102.7598166.csv)  
+- [View Full Test Report (HTML)](./reports/report_1735264922.9668682.html)
+- [Failures Report (CSV)](./reports/failures_1735265107.5026798.csv)
+- [Exceptions Report (CSV)](./reports/exceptions_1735265110.4368029.csv)
+- [Requests Statistics (CSV)](./reports/requests_1735265102.7598166.csv)
 
 ---
 
@@ -145,4 +155,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## ❓ Contact
 
 For any questions or issues, please open an issue in this repository.
-
