@@ -13,7 +13,7 @@ class WebsiteUser(HttpUser):
             "lastName": "kullanici",
             "email": "denemekullanici@gmail.com",
             "password": "123456789",
-            "phone": "5362264319",
+            "phone": "5962264319",
             "userStatus": 0
         }
         self.client.post("/v2/user", json=payload)
@@ -27,7 +27,7 @@ class WebsiteUser(HttpUser):
             "lastName": "kullanici",
             "email": "guncelkullanici@gmail.com",
             "password": "123456",
-            "phone": "5452126585",
+            "phone": "5952126585",
             "userStatus": 0
         }
         self.client.put("/v2/user/denemekullanici", json=payload)
