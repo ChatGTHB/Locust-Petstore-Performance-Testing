@@ -47,7 +47,7 @@ locust-petstore-performance-testing/
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/ChatGTHB/locust-petstore-performance-testing.git
+   git clone https://github.com/cihat-kose/locust-petstore-performance-testing.git
    cd locust-petstore-performance-testing
    ```
 
